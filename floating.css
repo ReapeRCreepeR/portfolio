@@ -1,0 +1,57 @@
+.floating-icons{
+    position:absolute;
+    inset:0;
+}
+
+
+.html{
+    top:-8%;
+    left:-2%;
+    color:#ff5722;
+}
+
+.css{
+    top:-8%;
+    right:-1%;
+    color:#2196f3;
+}
+
+.js{
+    left:-23%;
+    top:31%;
+    color:#ffeb3b;
+}
+
+.php{
+    right:-23%;
+    top:31%;
+    color:#8892ff;
+}
+
+.python{
+    bottom:11%;
+    left:0%;
+    color:#ffd43b;
+}
+
+.mysql{
+    bottom:11%;
+    right:-1%;
+    color:#00e5ff;
+}
+
+
+@keyframes float{
+
+    0%{
+        transform:translateY(0px);
+    }
+
+    50%{
+        transform:translateY(-15px);
+    }
+
+    100%{
+        transform:translateY(0px);
+    }
+}
